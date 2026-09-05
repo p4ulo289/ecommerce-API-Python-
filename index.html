@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevMarket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Style.css">
 </head>
 <body>
 <header>
-    <a href="index.html">
-    <h1 class="title">DevMarket</h1>
+    <a href="index.html" class="brand-link">
+    <h1 class="title">Dev<span class="title-accent">Market</span></h1>
 </a>
-    <input id="search" type="text" placeholder="search">
+    <div class="search-wrapper">
+        <input id="search" type="text" placeholder="Buscar produtos...">
+    </div>
 
     <a href="./Pages/cart.html">
-    <button id="cart">Cart (<span id="cart-count">0</span>)</button>
+    <button id="cart">
+        <span class="cart-icon">🛒</span>
+        Cart <span id="cart-count" class="cart-count">0</span>
+    </button>
 </a>
 </header>
 

@@ -21,7 +21,7 @@ productsList.forEach(product => {
 
         <p> amount: ${product.amount} </p>
 
-        <button onclick="addToCart(${product.id})"> 
+        <button class="btn-add" onclick="addToCart(${product.id})"> 
         Adicionar
         </button>
 
